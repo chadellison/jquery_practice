@@ -1,7 +1,12 @@
 .red {
-  color: red;
+  background-color: red;
 }
 
 .blue {
-  color: blue;
+  background-color: blue;
+}
+
+table {
+  width: 100px;
+  border: 1px solid black;
 }
