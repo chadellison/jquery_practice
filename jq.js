@@ -1,4 +1,5 @@
 $(document).ready(function() {
-  $('li').text('It works!');
-  console.log("hello")
+  $('li').click(function(event) {
+    $('li').append('click')
+  })
 });
